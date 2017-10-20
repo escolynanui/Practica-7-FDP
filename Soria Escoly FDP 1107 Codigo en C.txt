@@ -1,0 +1,117 @@
+#include <stdio.h>
+//Este programa es para determinar si dos numeros son iguales//
+int main () {
+  unsigned int a,b;
+  a=3;
+  b=5;
+  if (a==0){
+      if(b==0){
+          printf("a es igual a b");
+      } else {
+          printf("a es diferente de b");
+      }
+      }
+      if (a!=0){
+          if (b==0){
+              printf("a es diferente de b");
+          }else {
+              while ((a!=0)&& (b!=0)){
+                  a=a-1;
+                  b=b-1;
+                  if (a==0){
+                      if (b==0){
+                          printf("a es igual a b");
+                      }else{
+                          printf("a es diferente de b");
+                      }
+                  }
+                  if (a!=0){
+                      if(b==0){
+                          printf("a es diferente de b");
+                      }else{
+                          continue; 
+                      }
+                  }
+              }
+          }
+// No me compilo porque me falto cerrar algunas llaves//
+#include <stdio.h>
+//Este programa es para determinar si dos numeros son iguales//
+int main () {
+  unsigned int a,b;
+  a=3;
+  b=5;
+  if (a==0){
+      if(b==0){
+          printf("a es igual a b");
+      } else {
+          printf("a es diferente de b");
+      }
+      }
+      if (a!=0){
+          if (b==0){
+              printf("a es diferente de b");
+          }else {
+              while ((a!=0)&& (b!=0)){
+                  a=a-1;
+                  b=b-1;
+                  if (a==0){
+                      if (b==0){
+                          printf("a es igual a b");
+                      }else{
+                          printf("a es diferente de b");
+                      }
+                  }
+                  if (a!=0){
+                      if(b==0){
+                          printf("a es diferente de b");
+                      }else{
+                          continue; 
+                      }
+                  }
+              }
+          }
+      }
+  }
+*/En este primero lo hice para probar lo que hicimos en clase en el siguiente lo complemente 
+para que en un programa hiciera las 3 cosas determinar si "a" es mayor, menor o igual a b*/
+
+#include <stdio.h>
+//Este programa es para determinar si "a" es mayor o menor que "b" o si son iguales//
+int main () {
+  unsigned int a,b;
+  a=3;
+  b=5;
+  if (a==0){
+      if(b==0){
+          printf("a es igual a b");
+      } else {
+          printf("a es menor que b");
+      }
+      }
+      if (a!=0){
+          if (b==0){
+              printf("a es mayor que b");
+          }else {
+              while ((a!=0)&& (b!=0)){
+                  a=a-1;
+                  b=b-1;
+                  if (a==0){
+                      if (b==0){
+                          printf("a es igual a b");
+                      }else{
+                          printf("a es menor que b");
+                      }
+                  }
+                  if (a!=0){
+                      if(b==0){
+                          printf("a es mayor que b");
+                      }else{
+                          continue; 
+                      }
+                  }
+              }
+          }
+      }
+  }
+//El programa me corrió perfectamente, hice varias pruebas y funcionó :)//
